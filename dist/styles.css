@@ -1,0 +1,108 @@
+body {
+    width: 320px;
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: #f9fafb;
+}
+
+.form-entry {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.link-saver-form legend {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #d3cece;
+}
+
+.form-label {
+    font-size: 14px;
+}
+
+.link-saver-form input {
+    padding: 6px;
+    border-radius: 8px;
+    background: linear-gradient(180deg, rgb(247, 247, 247), rgb(255, 255, 255));
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2);
+}
+
+.link-saver-form select {
+    width: 50%;
+    padding: 6px;
+}
+
+.add-btn {
+    padding: 7px 10px 7px 8px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #d3cece;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.saved-url-container {
+    margin: 5px 2px 15px 2px;
+    padding: 5px;
+    background-color: #f9f9f7;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #d3cece;
+    font-size: 16px;
+}
+
+.saved-url-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.saved-url-list li {
+    display: flex;
+    align-items: center;
+}
+
+.favicon {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+
+.saved-url-list a {
+    width: 100%;
+    font-weight: 500;
+    text-decoration: none;
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Displays a pointer on the selected link upon hovering on the corresponding delete button */
+.saved-url-list li:has(button:hover) .hidden {
+    display: block;
+    color: #6b6b6b;
+}
+
+/* The delete button within each li element */
+.saved-url-list li button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Cursor tooltip that displays the link on hover of the anchor tag*/
+#cursor-tooltip {
+    position: fixed;
+    padding: 2px;
+    background-color: #333333;
+    color: #ffffff;
+    max-width: 250px;
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <form class="link-saver-form">
+            <fieldset>
+                <legend>Save link:</legend>
+                <div class="form-entry">
+                    <label for="url-input" class="form-label">Enter URL:</label>
+                    <input type="url" id="url-input" placeholder="https://..." required>
+                </div>
+                <div class="form-entry">
+                    <label for="anchor-input" class="form-label">Title (optional):</label>
+                    <input type="text" id="anchor-input" placeholder="e.g. cats">
+                </div>
+                <div class="form-entry">
+                    <label for="color-input" class="form-label">Colour:</label>
+                    <select id="color-select">
+                        <option style="color: #000000;" value="#000000">Black</option>
+                        <option style="color: #d30000;" value="#d30000">Red</option>
+                        <option style="color: #6f4e37;" value="#6f4e37">Coffee</option>
+                        <option style="color: #d35400;" value="#d35400">Pumpkin</option>
+                        <option style="color: #ff00ff;" value="#ff00ff">Magenta</option>
+                        <option style="color: #228b22;" value="#228b22">Forest</option>
+                        <option style="color: #0f52ba;" value="#0f52ba">Sapphire</option>
+                        <option style="color: #7f00ff;" value="#7f00ff">Violet</option>
+                    </select>
+                </div>
+                <button type="submit" class="add-btn">+ Add</button>
+            </fieldset>
+        </form>
+        
+        <section class="saved-url-container">
+            <ul class="saved-url-list">
+            </ul>
+        </section>
+
+        <div id="cursor-tooltip" class="hidden"></div>
+        <script src="browser-polyfill.min.js"></script>
+        <script type="module" src="script.js"></script>
+    </body>
+</html>
