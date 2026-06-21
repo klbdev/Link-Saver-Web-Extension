@@ -53,4 +53,4 @@ git clone https://github.com/klbdev/Link-Saver-Web-Extension
 - If a URL or title is too long, the text becomes truncated with ellipses instead of overflowing to reduce visual clutter.
 
 ## Acknowledgements
-- 
+- This project uses [webextension-polyfill](https://github.com/mozilla/webextension-polyfill) by Mozilla in the `browser-polyfill.min.js` file.
