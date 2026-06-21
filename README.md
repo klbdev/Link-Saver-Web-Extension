@@ -6,7 +6,6 @@ A web extension to save commonly accessed links.
 - [Setup](#setup)
 - [Usage](#usage)
 - [Features](#features)
-- [Testing](#testing)
 
 ## Installation
 ### Option 1: Using Git Bash.
@@ -50,8 +49,8 @@ git clone https://github.com/klbdev/Link-Saver-Web-Extension
 - Hovering the cursor on a link, a tooltip containing the URL (the actual website) appears on the bottom right of the cursor for reference.
 ### Favicon
 - On the left, the favicon (favourite icon) of the webpage is rendered for ease of reference when there are multiple links.
-
-## Testing
-
+### Long links or titles
+- If a URL or title is too long, the text becomes truncated with ellipses instead of overflowing to reduce visual clutter.
 
 ## Acknowledgements
+- 
