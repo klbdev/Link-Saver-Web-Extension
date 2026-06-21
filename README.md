@@ -6,6 +6,7 @@ A web extension to save commonly accessed links.
 - [Setup](#setup)
 - [Usage](#usage)
 - [Features](#features)
+- [Acknowledgements](#acknowledgements)
 
 ## Installation
 ### Option 1: Using Git Bash.
