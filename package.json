@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@types/webextension-polyfill": "^0.12.5",
+    "express": "^5.2.1",
+    "mysql": "^2.18.1"
+  }
+}
