@@ -6,6 +6,7 @@ A web extension to save commonly accessed links.
 - [Setup](#setup)
 - [Usage](#usage)
 - [Features](#features)
+- [Showcase](#showcase)
 - [Acknowledgements](#acknowledgements)
 
 ## Installation
@@ -52,6 +53,9 @@ git clone https://github.com/klbdev/Link-Saver-Web-Extension
 - On the left, the favicon (favourite icon) of the webpage is rendered for ease of reference when there are multiple links.
 ### Long links or titles
 - If a URL or title is too long, the text becomes truncated with ellipses instead of overflowing to reduce visual clutter.
+
+## Showcase
+<img width="240" height="320" alt="link-saver-demo" src="https://github.com/user-attachments/assets/2fab09ba-acde-459a-b573-dfc3741b1264" />
 
 ## Acknowledgements
 - This project uses [webextension-polyfill](https://github.com/mozilla/webextension-polyfill) by Mozilla in the `browser-polyfill.min.js` file.
